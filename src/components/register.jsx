@@ -61,6 +61,7 @@ const Signing = () => {
         localStorage.setItem('user', JSON.stringify(data.user));
         localStorage.setItem('words', JSON.stringify(data.words));
         localStorage.setItem('units', JSON.stringify(data.units));
+        localStorage.setItem('lang', 'eng');
         navigate('/dashboard'); // Using react-router-dom for redirection
       }
 

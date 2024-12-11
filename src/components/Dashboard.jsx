@@ -25,7 +25,7 @@ const Dashboard = () => {
     const progress = {};
 
     languages.forEach((lang) => {
-      const progressField = `${lang}_progress`;
+      const progressField = lang==="eng"?"progress":`${lang}_progress`;
       const langData = user[progressField];
 
       if (langData) {

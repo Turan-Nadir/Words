@@ -172,6 +172,12 @@ const generateQuestions = (words, lang) => {
     };
     const submitTestResults = async () => {
         try {
+            // If slug is "all", just show the results without saving to the server
+            if (slug === "all") {
+                setIsTestCompleted(true); // Mark test as completed
+                return;
+            }
+    
             const user = JSON.parse(localStorage.getItem("user"));
             if (!user) return;
     

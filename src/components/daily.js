@@ -51,15 +51,21 @@ const DailyPage = () => {
         }
     };
 
-    // Check for the first unit with performance 0 (completed but not tested)
     const getReadyTestUnit = () => {
-        const units =lang==="eng"?user["progress"]?.units:user[lang + "_progress"]?.units;
-        if (units) {
+        // Retrieve the progress units based on the language
+             const units = lang === "eng"
+            ? user.progress?.units
+            : user[`${lang}_progress`]?.units; // Use optional chaining for safety
+                
+        // Ensure units exist and is an array
+        if (Array.isArray(units)) {
             const readyUnit = units.find((unit) => unit.performance === 0);
-            return readyUnit;
+            return readyUnit || null;
         }
+    
         return null;
     };
+    
 
     // Tooltip content for today's unit or ready test
     const getTooltipContent = (unitDay) => {
