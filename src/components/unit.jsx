@@ -162,7 +162,7 @@ const UnitPage = () => {
                 ) : (
                     <>
                         <h2 className="text-2xl font-bold mb-2 text-purple-600">
-                            Word: {getLangSpecificField(unit.words[currentWordIndex])}
+                            Word: {getLangSpecificField(unit.words[currentWordIndex])} -- {unit.words[currentWordIndex].word}
                         </h2>
                         <img
                             src={unit.words[currentWordIndex].url}
