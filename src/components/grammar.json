@@ -1,0 +1,839 @@
+{
+    "conjugation_regular": {
+
+      "description": "The infinitive form (also known as 'dictionary form') of Korean verbs always ends with -다, but for most verb conjugations in Korean, you use the 'verb stem' of a verb and add various endings to it. The verb stem is formed by simply dropping the -다 from the infinitive form of a verb. All verbs in Korean end with -다 (e.g. 가다, 보다, 하다, etc.), so if you remove -다 from the end, you are left with the verb stem (e.g. 가, 보, 하, etc.).",
+      "Present_Tense": {
+        "ending": "-아/어/여요",
+        "description": "Present tense verbs in Korean cover a wider range of tenses than in English; therefore, a sentence in the present tense in Korean can be translated to many different things in English. For example, 가요 can be translated as 'I go', 'I’m going', 'I’m going to go', or even 'I will go'.",
+        "formation_rules": [
+          "To create a present tense sentence, add -아요, -어요, or -여요 after the verb stem.",
+          "If the verb stem's last vowel is ㅏ or ㅗ, it is followed by -아요.",
+          "If the last vowel is NOT ㅏ or ㅗ, it is followed by -어요.",
+          "Only one verb stem, 하, is followed by -여요. However, 하여요 is always shortened to 해요."
+        ],
+        "examples": [
+          {
+            "verb": "만나다",
+            "translation": "to meet",
+            "conjugation": "만나 + -아요 → 만나아요 → 만나요",
+            "notes": [
+              "When ㅏ meets -아요, 아 is omitted to become 만나요, not 만나아요."
+            ],
+            "meanings": ["I meet.", "I'm meeting.", "etc."]
+          },
+          {
+            "verb": "마시다",
+            "translation": "to drink",
+            "conjugation": "마시 + -어요 → 마시어요 → 마셔요",
+            "notes": [
+              "When ㅣ and -어 are combined, it becomes ㅕ."
+            ],
+            "meanings": ["I drink.", "I'm drinking.", "etc."]
+          },
+          {
+            "verb": "보내다",
+            "translation": "to send",
+            "conjugation": "보내 + -어요 → 보내어요 → 보내요",
+            "notes": [
+              "When ㅐ meets -어요, 어 is omitted to become 보내요, not 보내어요."
+            ],
+            "meanings": ["I send.", "I'm sending.", "etc."]
+          },
+          {
+            "verb": "시작하다",
+            "translation": "to start, to begin",
+            "conjugation": "시작하 + -여요 → 시작하여요 → 시작해요",
+            "notes": [
+              "When 하 and -여 are combined, 하여 is always shortened to 해."
+            ],
+            "meanings": ["I start.", "I will start.", "etc."]
+          }
+        ]
+      },
+
+      "Past_Tense": {
+        "ending": "-았/었/였어요",
+        "description": "Add -았어요, -었어요, or -였어요 after the verb stem to form a past tense statement. If the last vowel of the verb stem is ㅏ or ㅗ, it is followed by -았어요. If the last vowel is NOT ㅏ or ㅗ, it is followed by -었어요. Only one verb stem, 하, is followed by -였어요. However, 하였어요 is usually shortened to 했어요.",
+        "examples": [
+          {
+            "verb": "만나다",
+            "translation": "to meet",
+            "conjugation": "만나 + -았어요 = 만났어요",
+            "notes": [
+              "When ㅏ meets -았, 아 is omitted to become 만났어요, not 만나았어요."
+            ],
+            "meanings": ["I met."]
+          },
+          {
+            "verb": "마시다",
+            "translation": "to drink",
+            "conjugation": "마시 + -었어요 = 마셨어요",
+            "notes": [
+              "When ㅣ and -어 are combined, it becomes ㅕ."
+            ],
+            "meanings": ["I drank."]
+          },
+          {
+            "verb": "보내다",
+            "translation": "to send",
+            "conjugation": "보내 + -었어요 → 보내었어요 → 보냈어요",
+            "notes": [
+              "When ㅐ meets -었, 어 is omitted to become 보냈어요, not 보내었어요."
+            ],
+            "meanings": ["I sent."]
+          },
+          {
+            "verb": "시작하다",
+            "translation": "to start, to begin",
+            "conjugation": "시작하 + -였어요 = 시작했어요",
+            "notes": [
+              "When 하 and -였 are combined, 하였 is usually shortened to 했."
+            ],
+            "meanings": ["I started."]
+          }
+        ]
+      },
+      "Future_Tense": {
+        "ending": "-(으)ㄹ 거예요",
+        "description": "To create a future tense sentence, add either -을 거예요 or -ㄹ 거예요. If the last syllable of the verb stem is a consonant, add -을 거예요, and if the verb stem ends with a vowel, add -ㄹ 거예요. While this is primarily a future tense ending, it can also express assumptions depending on the context. It may be translated as 'it will/I will/they are going to' or 'I think/I assume'.",
+        "examples": [
+          {
+            "verb": "일어나다",
+            "translation": "to get up, to wake up",
+            "conjugation": "일어나 + -ㄹ 거예요 = 일어날 거예요",
+            "meanings": [
+              "I will get up.",
+              "I think he (she) will get up."
+            ]
+          },
+          {
+            "verb": "입다",
+            "translation": "to wear, to put on",
+            "conjugation": "입 + -을 거예요 = 입을 거예요",
+            "meanings": [
+              "I will wear.",
+              "I think she (he) will wear."
+            ]
+          }
+        ]
+      },
+      "Modifiers": {
+        "past": {
+          "ending": "-(으)ㄴ",
+          "description": "Used after a verb stem, this suffix changes a verb into a modifying adjective (in the past tense) to be used in front of a noun. It serves a role similar to clauses such as 'that I found' or 'that I bought yesterday' in English.",
+          "examples": [
+            {
+              "verb": "찾다",
+              "translation": "to find",
+              "conjugation": "찾은",
+              "meanings": [
+                "that I found",
+                "that they found"
+              ],
+              "example_sentence": "어제 찾은 책 = the book that she found yesterday"
+            }
+          ]
+        },
+        "present": {
+          "ending": "-는",
+          "description": "Used after a verb stem, this suffix changes a verb into a modifying adjective (in the present tense) to be used in front of a noun. It serves a role similar to clauses such as 'that I like' or 'that I use every day' in English.",
+          "examples": [
+            {
+              "verb": "가다",
+              "translation": "to go",
+              "conjugation": "가는",
+              "meanings": [
+                "that I go to"
+              ],
+              "example_sentence": "매일 가는 곳 = a place that I go to every day"
+            }
+          ]
+        },
+        "future": {
+          "ending": "-(으)ㄹ",
+          "description": "Used after a verb stem, this suffix changes a verb into a modifying adjective (in the future tense) to be used in front of a noun. It serves a role similar to clauses such as 'that will start tomorrow' or 'that you will see there' in English.",
+          "examples": [
+            {
+              "verb": "연습하다",
+              "translation": "to practice",
+              "conjugation": "연습할",
+              "meanings": [
+                "that I will practice"
+              ],
+              "example_sentence": "연습할 계획 = a plan that I will practice, a plan to practice"
+            }
+          ]
+        }
+      },
+      "PassiveVoice": {
+        "rules": [
+          {
+            "ending": "-이",
+            "condition": "When the dictionary form of the verb ends in -ㅎ다, 이 is added to the verb stem ending and changes to -ㅎ이다.",
+            "examples": [
+              {
+                "verb": "놓다",
+                "translation": "to put down",
+                "passive_form": "놓이다",
+                "passive_translation": "to be put down"
+              },
+              {
+                "verb": "쌓다",
+                "translation": "to pile up",
+                "passive_form": "쌓이다",
+                "passive_translation": "to be piled up"
+              }
+            ]
+          },
+          {
+            "ending": "-히",
+            "condition": "When the dictionary form of the verb ends in -ㄱ다, -ㄷ다 or ㅂ다, 히 is added to the verb stem ending and changes to -ㄱ히다, ㄷ히다 or ㅂ히다.",
+            "examples": [
+              {
+                "verb": "막다",
+                "translation": "to block",
+                "passive_form": "막히다",
+                "passive_translation": "to be blocked"
+              },
+              {
+                "verb": "닫다",
+                "translation": "to close",
+                "passive_form": "닫히다",
+                "passive_translation": "to be closed"
+              }
+            ]
+          },
+          {
+            "ending": "-리",
+            "condition": "When the dictionary form of the verb ends in -ㄹ다, -리 is added to the verb stem ending and changes to -ㄹ리다.",
+            "examples": [
+              {
+                "verb": "열다",
+                "translation": "to open",
+                "passive_form": "열리다",
+                "passive_translation": "to be opened"
+              },
+              {
+                "verb": "팔다",
+                "translation": "to sell",
+                "passive_form": "팔리다",
+                "passive_translation": "to be sold"
+              }
+            ]
+          },
+          {
+            "ending": "-기",
+            "condition": "When the dictionary form of the verb ends in -ㄴ다, ㅁ다, ㅅ다 or ㅊ다, -기 is added to the verb stem ending and changes to -ㄴ기다, -ㅁ기다, -ㅅ기다 or -ㅊ기다.",
+            "examples": [
+              {
+                "verb": "안다",
+                "translation": "to hug",
+                "passive_form": "안기다",
+                "passive_translation": "to be hugged"
+              },
+              {
+                "verb": "담다",
+                "translation": "to put something in a basket/bag",
+                "passive_form": "담기다",
+                "passive_translation": "to be put into a basket/bag"
+              }
+            ]
+          }
+        ],
+        "hada_verbs": {
+          "description": "하다 verbs are combinations of nouns + 하다. To change these 하다 verbs into passive voice, change 하다 to 되다.",
+          "examples": [
+            {
+              "verb": "시작하다",
+              "translation": "to start, to begin",
+              "passive_form": "시작되다",
+              "passive_translation": "to be started"
+            },
+            {
+              "verb": "걱정하다",
+              "translation": "to worry",
+              "passive_form": "걱정되다",
+              "passive_translation": "to be worried"
+            }
+          ]
+        }
+      }
+    },
+    "conjugation_adj": {
+          "general_rule": {
+            "description": "Adjectives in Korean must be conjugated because they are in the infinitive form. To use them to modify a noun, drop -다 to get the adjective stem. If the stem ends with a vowel, add -ㄴ. If it ends with a consonant, add -은.",
+            "examples": [
+              {
+                "adjective": "크다",
+                "infinitiveTranslation": "to be big",
+                "modifierForm": "큰",
+                "modifierTranslation": "big"
+              },
+              {
+                "adjective": "높다",
+                "infinitiveTranslation": "to be high",
+                "modifierForm": "높은",
+                "modifierTranslation": "high"
+              }
+            ]
+          },
+          "predicateAdjectives": {
+            "description": "When adjectives are used as predicates (e.g., 'OOO is pretty'), they are conjugated like verbs depending on the tense.",
+            "tenses": {
+              "presentTense": {
+                "examples": [
+                  {
+                    "adjective": "바쁘다",
+                    "stem": "바쁘",
+                    "conjugation": "바빠요",
+                    "translation": "OOO is busy",
+                    "note": "When ㅡ meets another vowel, ㅡ is omitted."
+                  }
+                ]
+              },
+              "pastTense": {
+                "examples": [
+                  {
+                    "adjective": "바쁘다",
+                    "stem": "바쁘",
+                    "conjugation": "바빴어요",
+                    "translation": "OOO was busy",
+                    "note": "When ㅡ meets another vowel, ㅡ is omitted."
+                  }
+                ]
+              },
+              "futureTense": {
+                "examples": [
+                  {
+                    "adjective": "바쁘다",
+                    "stem": "바쁘",
+                    "conjugation": "바쁠 거예요",
+                    "translation": "OOO will be busy"
+                  }
+                ]
+              }
+            }
+          },
+          "adverbs": {
+            "description": "To turn adjectives into adverbs, add -게 to the adjective stem.",
+            "examples": [
+              {
+                "adjective": "조용하다",
+                "translation": "to be quiet",
+                "adverbForm": "조용하게",
+                "adverbTranslation": "quietly"
+              },
+              {
+                "adjective": "싸다",
+                "translation": "to be cheap",
+                "adverbForm": "싸게",
+                "adverbTranslation": "cheaply"
+              }
+            ]
+          }
+    },
+    "conjugation_irregular": {
+          "ㅂ_Irregulars": {
+            "description": "When verbs or adjectives ending in ㅂ are followed by a suffix starting with a vowel, the ㅂ is replaced with 우.",
+            "examples": [
+              { "verb": "더럽다", "translation": "to be dirty" },
+              { "verb": "무섭다", "translation": "to be scary" },
+              { "verb": "덥다", "translation": "to be hot (weather)" },
+              { "verb": "차갑다", "translation": "to be cold" }
+            ],
+            "conjugations": {
+              "presentTense": "더럽 + -어요 → 더러우 + -어요 → 더러워요",
+              "pastTense": "더럽 + -었어요 → 더러우 + -었어요 → 더러웠어요",
+              "futureTense": "더럽 + -(으)ㄹ 거예요 → 더러우 + -(으)ㄹ 거예요 → 더러울 거예요"
+            }
+          },
+          "르_Irregulars": {
+            "description": "When verbs or adjectives ending in 르 are followed by -아/어/여요 or -았/었/였어요, 르 changes to ㄹ and is added to the previous syllable, with an additional ㄹ added to the suffix.",
+            "examples": [
+              { "verb": "배부르다", "translation": "to be full" },
+              { "verb": "모르다", "translation": "to not know" },
+              { "verb": "다르다", "translation": "to be different" }
+            ],
+            "conjugations": {
+              "presentTense": "배부르 + -어요 → 배불ㄹ + -어요 → 배불러요",
+              "pastTense": "배부르 + -었어요 → 배불ㄹ + -었어요 → 배불렀어요",
+              "futureTense": "배부르 + -(으)ㄹ 거예요 → 배불ㄹ + -(으)ㄹ 거예요 → 배부를 거예요"
+            }
+          },
+          "ㄷ_Irregulars": {
+            "description": "When verbs ending in ㄷ are followed by a suffix starting with a vowel, ㄷ changes to ㄹ.",
+            "examples": [
+              { "verb": "듣다", "translation": "to hear" },
+              { "verb": "걷다", "translation": "to walk" },
+              { "verb": "알아듣다", "translation": "to understand" }
+            ],
+            "conjugations": {
+              "presentTense": "듣 + -어요 → 들 + -어요 → 들어요",
+              "pastTense": "듣 + -었어요 → 들 + -었어요 → 들었어요",
+              "futureTense": "듣 + -(으)ㄹ 거예요 → 들 + -(으)ㄹ 거예요 → 들을 거예요"
+            }
+          }
+    },
+    "tobe_noun": {
+          "PresentTense": {
+            "description": "Add -이에요/예요 after the noun depending on the last letter of the noun. If the noun ends with a consonant, add -이에요; if it ends with a vowel, add -예요.",
+            "examples": [
+              {
+                "noun": "주말",
+                "conjugation": "주말 + -이에요",
+                "result": "주말이에요",
+                "translation": "It is the weekend."
+              },
+              {
+                "noun": "의자",
+                "conjugation": "의자 + -예요",
+                "result": "의자예요",
+                "translation": "It is a chair."
+              }
+            ]
+          },
+          "PastTense": {
+            "description": "Add -이었어요/였어요 after the noun. If the noun ends with a consonant, add -이었어요; if it ends with a vowel, add -였어요.",
+            "examples": [
+              {
+                "noun": "주말",
+                "conjugation": "주말 + -이었어요",
+                "result": "주말이었어요",
+                "translation": "It was the weekend."
+              },
+              {
+                "noun": "의자",
+                "conjugation": "의자 + -였어요",
+                "result": "의자였어요",
+                "translation": "It was a chair."
+              }
+            ]
+          },
+          "FutureTense": {
+            "description": "Add -일 거예요 after the noun.",
+            "examples": [
+              {
+                "noun": "주말",
+                "conjugation": "주말 + -일 거예요",
+                "result": "주말일 거예요",
+                "translation": "It will be the weekend."
+              },
+              {
+                "noun": "의자",
+                "conjugation": "의자 + -일 거예요",
+                "result": "의자일 거예요",
+                "translation": "It will be a chair."
+              }
+            ]
+          }
+    },
+    "conjunction": {
+          "그래서": "so, therefore",
+          "그리고": "and",
+          "하지만": "but, however (used when the second sentence is in direct contradiction to the first sentence)",
+          "그런데": "but, however, by the way (used when the second sentence is in contradiction to the first sentence, or when the second sentence is slightly changing the direction of the topic)",
+          "그래도": "but, still"
+    },
+    "number": {
+          "sino_korean": {
+            "0": "영/공",
+            "1": "일",
+            "2": "이",
+            "3": "삼",
+            "4": "사",
+            "5": "오",
+            "6": "육/륙",
+            "7": "칠",
+            "8": "팔",
+            "9": "구",
+            "10": "십"
+          },
+          "native_korean": {
+            "1": "하나",
+            "2": "둘",
+            "3": "셋",
+            "4": "넷",
+            "5": "다섯",
+            "6": "여섯",
+            "7": "일곱",
+            "8": "여덟",
+            "9": "아홉",
+            "10": "열"
+          }
+    },
+    "telling_time": {
+          "hours": {
+            "1": "1시 한 시",
+            "2": "2시 두 시",
+            "3": "3시 세 시",
+            "4": "4시 네 시",
+            "5": "5시 다섯 시",
+            "6": "6시 여섯 시",
+            "7": "7시 일곱 시",
+            "8": "8시 여덟 시",
+            "9": "9시 아홉 시",
+            "10": "10시 열 시",
+            "11": "11시 열한 시",
+            "12": "12시 열두 시"
+          },
+          "minutes": {
+            "1": "1분 일 분",
+            "2": "2분 이 분",
+            "3": "3분 삼 분",
+            "4": "4분 사 분",
+            "5": "5분 오 분",
+            "6": "6분 육 분",
+            "7": "7분 칠 분",
+            "8": "8분 팔 분",
+            "9": "9분 구 분",
+            "10": "10분 십 분",
+            "11": "11분 십일 분",
+            "12": "12분 십이 분",
+            "13": "13분 십삼 분",
+            "14": "14분 십사 분",
+            "15": "15분 십오 분",
+            "16": "16분 십육 분",
+            "17": "17분 십칠 분",
+            "18": "18분 십팔 분",
+            "19": "19분 십구 분",
+            "20": "20분 이십 분",
+            "21": "21분 이십일 분",
+            "22": "22분 이십이 분",
+            "23": "23분 이십삼 분",
+            "24": "24분 이십사 분",
+            "25": "25분 이십오 분",
+            "26": "26분 이십육 분",
+            "27": "27분 이십칠 분",
+            "28": "28분 이십팔 분",
+            "29": "29분 이십구 분",
+            "30": "30분 삼십 분",
+            "31": "31분 삼십일 분",
+            "32": "32분 삼십이 분",
+            "33": "33분 삼십삼 분",
+            "34": "34분 삼십사 분",
+            "35": "35분 삼십오 분",
+            "36": "36분 삼십육 분",
+            "37": "37분 삼십칠 분",
+            "38": "38분 삼십팔 분",
+            "39": "39분 삼십구 분",
+            "40": "40분 사십 분",
+            "41": "41분 사십일 분",
+            "42": "42분 사십이 분",
+            "43": "43분 사십삼 분",
+            "44": "44분 사십사 분",
+            "45": "45분 사십오 분",
+            "46": "46분 사십육 분",
+            "47": "47분 사십칠 분",
+            "48": "48분 사십팔 분",
+            "49": "49분 사십구 분",
+            "50": "50분 오십 분",
+            "51": "51분 오십일 분",
+            "52": "52분 오십이 분",
+            "53": "53분 오십삼 분",
+            "54": "54분 오십사 분",
+            "55": "55분 오십오 분",
+            "56": "56분 오십육 분",
+            "57": "57분 오십칠 분",
+            "58": "58분 오십팔 분",
+            "59": "59분 오십구 분",
+            "60": "60분 육십 분"
+          }
+    },
+    "counter": {
+          "개": "things in general",
+          "명": "people",
+          "마리": "animals"
+    },
+    "grammar_points": [
+          {
+            "pattern": "NOUN + -은/는",
+            "type": "topic marking particles",
+            "examples": [
+              "저희 집에는 = at our house",
+              "회사에 있다 = to be at work"
+            ]
+          },
+          {
+            "pattern": "NOUN + -에",
+            "type": "location particles",
+            "examples": [
+              "의자에 앉다 = to sit on a chair",
+              "쓰레기통에 버리다 = to throw away in a trash bin"
+            ]
+          },
+          {
+            "pattern": "NOUN + -을/를",
+            "type": "object marking particles",
+            "examples": [
+              "종이를 찢어요. = I tear some paper."
+            ]
+          },
+          {
+            "pattern": "NOUN + -도",
+            "type": "also, too",
+            "examples": [
+              "지하철도 = the subway, too"
+            ]
+          },
+          {
+            "pattern": "NOUN + -이/가",
+            "type": "subject marking particles",
+            "examples": [
+              "해가 떠요. = The sun rises."
+            ]
+          },
+          {
+            "pattern": "NOUN + -에서",
+            "type": "location particles",
+            "examples": [
+              "시장에서 사다 = at the market"
+            ]
+          },
+          {
+            "pattern": "NOUN + -와/과",
+            "type": "with, and",
+            "examples": [
+              "때와 장소 = time and place"
+            ]
+          },
+          {
+            "pattern": "NOUN + -(으)로",
+            "type": "direction/means",
+            "examples": [
+              "방으로 = into a room",
+              "칼로 = with a knife"
+            ]
+          },
+          {
+            "pattern": "NOUN + -부터",
+            "type": "since, from",
+            "examples": [
+              "언제부터 = since when"
+            ]
+          },
+          {
+            "pattern": "NOUN + -까지",
+            "type": "until, up to",
+            "examples": [
+              "지금까지 = until now"
+            ]
+          },
+          {
+            "pattern": "NOUN + -(이)랑",
+            "type": "NOUN and NOUN",
+            "examples": [
+              "빵이랑 음료수 = bread and a drink"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)면",
+            "type": "if",
+            "examples": [
+              "졸면 = if I doze off"
+            ]
+          },
+          {
+            "pattern": "VERB/ADJECTIVE + -아/어/여서",
+            "type": "connecting reason and result",
+            "examples": [
+              "공항이 너무 넓어서 길을 잃어버렸어요. = The airport is so spacious that I lost my way."
+            ]
+          },
+          {
+            "pattern": "VERB + -거나",
+            "type": "or",
+            "examples": [
+              "영화를 보거나 = watch a movie or"
+            ]
+          },
+          {
+            "pattern": "VERB + -고",
+            "type": "connecting two actions",
+            "examples": [
+              "물을 마시고 세수를 해요. = I drink water and wash my face."
+            ]
+          },
+          {
+            "pattern": "VERB + -고 싶다",
+            "type": "to want to VERB",
+            "examples": [
+              "놀고 싶다 = to want to hang out"
+            ]
+          },
+          {
+            "pattern": "VERB/ADJECTIVE + -지 않다",
+            "type": "not",
+            "examples": [
+              "먹지 않다 = to not eat"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄹ 수 있다",
+            "type": "can, be able to",
+            "examples": [
+              "구별할 수 있다 = to be able to distinguish"
+            ]
+          },
+          {
+            "pattern": "VERB + -아/어/여 주다",
+            "type": "to VERB for someone",
+            "examples": [
+              "가르쳐 주다 = to teach"
+            ]
+          },
+          {
+            "pattern": "VERB + -어 있다",
+            "type": "passive voice, state",
+            "examples": [
+              "열려 있다 = to be open (and remain open)"
+            ]
+          },
+          {
+            "pattern": "VERB + -아/어/여하다",
+            "type": "intransitive to transitive",
+            "examples": [
+              "궁금해하다 = to feel curious"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄹ까요?",
+            "type": "I wonder",
+            "examples": [
+              "기뻐할까요? = I wonder if she will be happy."
+            ]
+          },
+          {
+            "pattern": "VERB + -는 것",
+            "type": "VERB-ing",
+            "examples": [
+              "집에 있는 것 = staying at home"
+            ]
+          },
+          {
+            "pattern": "VERB + -기 전에",
+            "type": "before VERB-ing",
+            "examples": [
+              "해가 지기 전에 = before the sun sets"
+            ]
+          },
+          {
+            "pattern": "VERB + -고 있다",
+            "type": "to be VERB-ing",
+            "examples": [
+              "배우고 있다 = to be learning"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄴ/는/(으)ㄹ 것 같다",
+            "type": "to think (subject) VERB",
+            "examples": [
+              "다친 것 같다 = to think (someone) hurt"
+            ]
+          },
+          {
+            "pattern": "VERB + -는데",
+            "type": "but",
+            "examples": [
+              "약속이 있는데 늦었어요. = I had plans, but I was late."
+            ]
+          },
+          {
+            "pattern": "VERB + -기 위해서",
+            "type": "in order to VERB",
+            "examples": [
+              "듣기 위해서 = in order to listen"
+            ]
+          },
+          {
+            "pattern": "VERB + -아/어/여 보다",
+            "type": "to try VERB-ing",
+            "examples": [
+              "입어 보다 = to try putting on (clothes)"
+            ]
+          },
+          {
+            "pattern": "VERB + -다가",
+            "type": "while VERB-ing",
+            "examples": [
+              "운동을 하다가 = while working out"
+            ]
+          },
+          {
+            "pattern": "VERB + -기 힘들다",
+            "type": "to be hard to VERB",
+            "examples": [
+              "먹기 힘들다 = to be hard to eat"
+            ]
+          },
+          {
+            "pattern": "VERB + -자마자",
+            "type": "as soon as",
+            "examples": [
+              "집에 오자마자 = as soon as I come home"
+            ]
+          },
+          {
+            "pattern": "VERB + -아/어/여야 하다",
+            "type": "must",
+            "examples": [
+              "먹어야 하다 = must eat"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄴ/는지",
+            "type": "marking the end of a question",
+            "examples": [
+              "언제부터 좋아했는지 몰라요 = I don't know since when I have liked it."
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄴ 다음에",
+            "type": "after VERB-ing",
+            "examples": [
+              "결혼한 다음에 = after getting married"
+            ]
+          },
+          {
+            "pattern": "VERB + -기로 정하다",
+            "type": "to decide to VERB",
+            "examples": [
+              "하기로 정하다 = to decide to do"
+            ]
+          },
+          {
+            "pattern": "VERB + -기도 하다",
+            "type": "also VERB",
+            "examples": [
+              "유리창을 닦기도 하다 = to also wipe the glass window"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄹ 때",
+            "type": "when SUBJECT VERB/ADJECTIVE",
+            "examples": [
+              "손님이 없을 때 = when there are no customers"
+            ]
+          },
+          {
+            "pattern": "VERB + -(으)ㄹ 수도 있다",
+            "type": "might, maybe",
+            "examples": [
+              "실수할 수도 있다 = to maybe make a mistake"
+            ]
+          }
+    ]
+  }
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+   
+  
+  
+  
